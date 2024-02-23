@@ -1,5 +1,6 @@
 from flask import Flask,jsonify,request
 from medical.utils import Medical
+import  numpy as np
 app=Flask(__name__)
 
 @app.route("/")
